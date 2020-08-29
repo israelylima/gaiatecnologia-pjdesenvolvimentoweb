@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GAIA TECHNOLOGY</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="menuprincipal">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Catálago</a>
+                </li>
+                <li>
+                    <a href="#">Novidades</a>
+                </li>
+                <li>
+                     <a href="#depoimentos">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+            
+        <div class="conteudo">
+            <section class="conteudo">
+                <div class="containerdoslide">
+                    <h1 class="tituloprincipal">O MELHOR DOS GAMERS PARA O GAMER!</h1>
+                    <p class="textoprincipal">Parecido com uma nuvem, só que melhor (segundo nossos 
+                    <br> fisicos), com a cadeira gamer da DXRACER você sente 
+                    </p>
+                    <div class="paleta">
+                        <h4>Cores: </h4>
+                        <button class="box red" id="btnVermelho" onclick="vermelho();"></button>
+                        <button class="box blue" id="btnAzul" onclick="azul();"></button>
+                        <button class="box green" id="btnVerde" onclick="verde();"></button>
+                    </div>
+                </div>
+            </section>
+            <div class="containerdoproduto">
+                <img src="img/cadeira_1.png" id="imgdoproduto">
+            </div>
+        </div>
+        <section class="conteudocontato" id="depoimentos">
+            <h2>DEPOIMENTOS</h2>
+            <p>Veja os ultimos comentários dos nossos clientes, ahh e deixa uma recadinho também.</p>
+            <div class="depoimentoesquerda">
+                <div id="conteudodepoimento">
+                    <div class="depoimentodireita">
+                        <form>
+                            <div class="campo">
+                                <div class="nomecampo">
+                                    <label>Seu nome</label>
+                                </div>
+                                <input type="text" name="nome" id="inputNome">
+                            </div>
+                            <div class="campo">
+                                <div class="nomecampo">
+                                    <label>Seu melhor email</label>
+                                </div>
+                                <input type="e-mail" name="email" id="inputEmail">
+                            </div>
+                            <div class="campo">
+                                <div class="nomecampo">
+                                    <label>Sua mensagem</label>
+                                </div>
+                                <textarea name="mensagem" id="inputMensagem"></textarea>
+                            </div>
+                            <button name="enviar" id="btnEnviar" onclick="adcDepoimento();" class="btnenviar" >Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="rodape">
+            <button onclick="abrir();" class="btncreditos">Créditos</button>
+        </div>
+        
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html> 

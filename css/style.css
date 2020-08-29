@@ -1,0 +1,214 @@
+::selection {
+    background: #fff;
+    color: #000;
+}
+input, textarea {
+    color: #000;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+body{
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menuprincipal a:hover{
+    color: #fff;
+    border-bottom: solid #fff 3px;
+}
+
+#menuprincipal li, a {
+    font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	list-style-type: none;
+    margin: 20px 10px 10px 50px; 
+}
+
+#menuprincipal ul {
+    padding: 8px 8px 8px 0px;
+	display: flex;
+}
+
+.containerdoslide{
+    padding: 100px;
+}
+
+.tituloprincipal {
+    font-size: 50px;
+}
+
+.textoprincipal {
+    font-size: 20px;
+}
+
+.corazul{
+    box-shadow: none;
+    border: 1px solid #cecece;
+    background: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.corvermelha{
+    background: #ff0000;
+    color #fff;
+}
+
+.corverde{
+    background: #02de11;
+    color #fff;
+}
+
+.paleta {
+    box-sizing: border-box;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.paleta .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+    margin: 15px 5px 5px 10px;
+}
+.paleta .box:hover {
+    opacity: 1;
+}
+
+.paleta .box.red {
+    background-color: red;
+}
+.paleta .box.blue {
+    background-color: blue;
+}
+.paleta .box.green {
+    background-color: green;
+}
+
+input:checked + .cores {
+    right: 0;
+}
+input:checked + .cores > .btn {
+    color: rgba(255, 255, 255,1);
+}
+
+.verde{
+    background:#00ad11;
+}
+.azul{
+    background:#0253de;
+}
+.vermelho{
+    background:#de1802;
+    color:#000;
+}
+
+.conteudo {
+    display: flex;
+}
+
+#imgdoproduto {
+    height: 580px;
+    margin-right: 70px;
+    align-self: flex-end;
+}
+
+.conteudocontato{
+    margin: 20px 10px 10px 100px; 
+}
+
+.rodape{
+    background: #000;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    background-color: transparent;
+}
+
+.btncreditos {
+    color: #fff;
+    background-color: #000;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conteudocontato{
+    width: 900px;
+    display: table;
+}
+
+.depoimentoesquerda{
+    position: relative;
+    border-width:2px;
+    width: 450px;
+    height: 300px;
+    left:0px;
+    float: left;
+}
+.conteudodeipomento{
+    margin: 20px;
+    border: #fff 1px solid; 
+    padding: 20px;
+}
+
+.textodeipomento{
+    margin: 20px;
+}
+
+.fotoredonda {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fotoredonda img {
+    position: absolute;
+    bottom: 0;
+}
+
+.depoimentodireita{
+    position:relative;
+    width:450px;
+    height: 300px;
+    float: left;
+}
+
+.campo, input{
+    width: 100%;
+    padding: 10px;
+}
+
+form .nomecampo{
+    width: 100%;
+}
+
+.btnenviar{
+    background: rgb(28, 184, 65);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+.btnexcluir{
+    background: rgb(255, 0, 0);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
